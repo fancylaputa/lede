@@ -20,7 +20,6 @@ DEFAULT_PACKAGES += \
 	kmod-qca-nss-dp kmod-qca-nss-drv-64 \
 	kmod-qca-nss-drv-pppoe-64 kmod-qca-nss-ecm-64 \
 	kmod-qca-nss-drv-bridge-mgr-64 kmod-qca-nss-drv-vlan-mgr-64 \
-	nss-firmware-ipq8074 luci-app-ipsec-vpnd \
-	luci-app-unblockmusic luci-app-zerotier
+	nss-firmware-ipq8074
 
 $(eval $(call BuildTarget))
